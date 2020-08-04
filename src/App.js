@@ -191,7 +191,10 @@ class App extends Component {
           </div>
           : (
             route === 'signin' || route === 'signout' ?
+            <div>
               <SignIn loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
+              <p className="white">This full stack Application was developed by <a target="blank" className="link hover-yellow white underline pointer" href="https://www.linkedin.com/in/mangalnathanvg/">Mangalnathan</a> as a capstone project for a <a className="link hover-yellow white underline pointer" target="blank" href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/">Udemy Course.</a></p>
+            </div>
               : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser} />
           )
         }
