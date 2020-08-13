@@ -17,7 +17,7 @@ Links:
   
       Password: jenny
       
-- Sample Images
+- Sample Images to use after login
 
     https://i.redd.it/u1pnes1uaqx11.jpg
 
